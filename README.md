@@ -22,8 +22,10 @@
         both involved a person walking through a room. Motion is detected by looking 
         at large temporal gradients of each pixel value.
     </p>
-    <img src="./project1/images/cover-image.png" alt=''/>
-    <p align=center><i>Motion Detection from Image set 1</i></p>
+    <center>
+        <img src="./project1/images/cover-image.png" alt=''/>
+        <p><i>Motion Detection from Image set 1</i></p>
+    </center>
     <p>
         Two techniques were applied in order to impropve the acuracy of the object detection. Firstly,
         the images were pre-processed before applying the temoporal filter by converting to grayscale
@@ -44,10 +46,10 @@
         features in each image. Then, these features were matched using thresholded Normalized Cross Correlation.
         This process is pictured below. 
     </p>
-    <center>
+    <div>
         <img src="./project2/DanaHallway1/DSC_0281_corner.jpg" alt='' width="48%"/>
         <img src="./project2/DanaHallway1/DSC_0282_corner.jpg" alt='' width="48%"/>
-    </center>
+    </div>
     <p align=center><i>Harris corner detection from hallway image set</i></p>
     <p>
         Next, normalized cross correlation (NCC) was used to find a sparce set of correspondences. 

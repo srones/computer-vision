@@ -46,8 +46,8 @@
         features in each image. Then, these features were matched using thresholded Normalized Cross Correlation.
         This process is pictured below. 
     </p>
-    <img src="./project2/DanaHallway1/DSC_0281_corner.jpg" alt='' width="48%"/>
-    <img src="./project2/DanaHallway1/DSC_0282_corner.jpg" alt='' width="48%"/>
+    <img src="./project2/DanaHallway1/DSC_0281_corner.jpg" alt='' />
+    <img src="./project2/DanaHallway1/DSC_0282_corner.jpg" alt='' />
     <p align=center><i>Harris corner detection from hallway image set</i></p>
     <p>
         Next, normalized cross correlation (NCC) was used to find a sparce set of correspondences. 
